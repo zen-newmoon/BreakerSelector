@@ -173,7 +173,7 @@ While 1
 			$iDBNum = GUICtrlRead($SlotNum)										;コンボボックスの値を取得
 			For $i = 0 To $iDBNum - 1
 				GUICtrlSetImage($aSelectedPic[$i], "image\nero.jpg")
-				GUICtrlSetData($aSelectedDBLabel[$i], "You're a demon!?")
+				GUICtrlSetData($aSelectedDBLabel[$i], "Demon!?")
 			Next
 			;抽選候補(のindex No.)を配列に格納する
 			Local $aLotteryCandidate[0]											;抽選候補Devil Breakerを格納する配列
